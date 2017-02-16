@@ -1,6 +1,6 @@
 # Funny Inspiring
 
-[![Latest Stable Version](https://poser.pugx.org/gmsantos/inspiring/v/stable)](https://packagist.org/packages/gmsantos/inspiring) [![Total Downloads](https://poser.pugx.org/gmsantos/inspiring/downloads)](https://packagist.org/packages/gmsantos/inspiring) [![Latest Unstable Version](https://poser.pugx.org/gmsantos/inspiring/v/unstable)](https://packagist.org/packages/gmsantos/inspiring) [![License](https://poser.pugx.org/gmsantos/inspiring/license)](https://packagist.org/packages/gmsantos/inspiring) [![Build Status](https://travis-ci.org/gmsantos/inspiring.svg?branch=master)](https://travis-ci.org/gmsantos/inspiring)
+[![Latest Stable Version](https://poser.pugx.org/zeusjammer/inspiring/v/stable)](https://packagist.org/packages/zeusjammer/inspiring) [![Total Downloads](https://poser.pugx.org/zeusjammer/inspiring/downloads)](https://packagist.org/packages/zeusjammer/inspiring) [![Latest Unstable Version](https://poser.pugx.org/zeusjammer/inspiring/v/unstable)](https://packagist.org/packages/zeusjammer/inspiring) [![License](https://poser.pugx.org/zeusjammer/inspiring/license)](https://packagist.org/packages/zeusjammer/inspiring) [![Build Status](https://travis-ci.org/zeusjammer/inspiring.svg?branch=master)](https://travis-ci.org/zeusjammer/inspiring)
 
 Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikipedia.org/wiki/Notepad%2B%2B#Easter_egg) and have a lot more inspiration.
 
@@ -9,7 +9,7 @@ Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikip
 Include this package via Composer:
 
 ```console
-composer require gmsantos/inspiring
+composer require zeusjammer/inspiring
 ```
 
 ### Laravel 5.3
@@ -22,7 +22,7 @@ Edit your `use` in the same way in Laravel 5.2 and backwards:
 <?php
 
 //use Illuminate\Foundation\Inspiring;
-use Gmsantos\Inspiring;
+use Zeusjammer\Inspiring;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 //use Illuminate\Foundation\Inspiring;
-use Gmsantos\Inspiring;
+use Zeusjammer\Inspiring;
 ```
 
 Then run `php artisan inspire` and have fun! :)
