@@ -1,6 +1,6 @@
 <?php
 
-namespace Gmsantos;
+namespace Zeusjammer;
 
 use Illuminate\Support\Collection;
 
