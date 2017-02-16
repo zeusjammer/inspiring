@@ -1,12 +1,12 @@
 {
-    "name": "gmsantos/inspiring",
-    "description": "Alternative inspiring quotes for Laravel 5",
+    "name": "zeusjammer/inspiring",
+    "description": "Alternative inspiring quotes Chuck Norris Facts for Laravel 5",
     "keywords": ["laravel", "package", "console"],
     "license": "GPL-2.0+",
     "authors": [
         {
-            "name": "gmsantos",
-            "email": "gabriel.ms1@hotmail.com"
+            "name": "zeusjammer",
+            "email": "zeusjammer@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gmsantos\\": "src/"
+            "Zeusjammer\\": "src/"
         }
     },
     "require-dev": {
@@ -23,7 +23,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Gmsantos\\Tests\\": "tests/"
+            "Zeusjammer\\Tests\\": "tests/"
         }
     },
     "scripts": {
