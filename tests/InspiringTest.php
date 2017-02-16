@@ -1,8 +1,8 @@
 <?php
 
-namespace Gmsantos\Tests;
+namespace Zeusjammer\Tests;
 
-use Gmsantos\Inspiring;
+use Zeusjammer\Inspiring;
 
 class InspiringTest extends \PHPUnit_Framework_TestCase
 {
